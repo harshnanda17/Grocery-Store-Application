@@ -41,12 +41,12 @@ if __name__ == '__main__':
     #print(get_all_products(connection))
 
     # INSERT PRODUCT
-    '''
+    
     print(insert_new_product(connection, {
         'product_name': 'lemon',
         'uom_id': '2',
         'price_per_unit': 200
     }))
-    '''
+    
     # DELETE PRODUCT
-    print(delete_product(connection, 12))
+    #print(delete_product(connection, 12))
